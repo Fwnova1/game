@@ -310,6 +310,17 @@ body {
 
 #character3 {
     top: 50%;
-    left: 80%;
-    background-image: url('npc3.png'); /* NPC 3 image */
+    left: 70%;
+    background-image: url('dat.jpg'); /* NPC 3 image */
 }
+.sign {
+    position: absolute;
+    width: 400px;
+    height: 320px;
+    background-image: url('bbd.png'); /* Use an image for the trunk */
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    z-index: 1; /* Trees in front of background but behind other elements */
+}
+
