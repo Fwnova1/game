@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Forest Exploration Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameArea">
+        <div id="sun"></div>
+        <div id="sky">
+            <div class="cloud cloud1" style="top: 1%;"></div>
+            <div class="cloud cloud2" style="top: 4%;"></div>
+            <div class="cloud cloud3" style="top: 2%;"></div>
+            <div class="cloud cloud4" style="top: 3%;"></div>
+        </div>
+        <div id="forest">
+            <div class="tree" style="top: 20%; left: 30%;"></div>
+            <div class="tree" style="top: 60%; left: 70%;"></div>
+            <div class="tree" style="top: 40%; left: 50%;"></div>
+            <div class="tree" style="top: 30%; left: 10%;"></div>
+            <div class="tree" style="top: 50%; left: 80%;"></div>
+            <div class="tree" style="top: 25%; left: 60%;"></div>
+            <div class="tree" style="top: 65%; left: 20%;"></div>
+            <div class="flower" style="top: 60%; left: 20%;"></div>
+            <div class="flower" style="top: 40%; left: 75%;"></div>
+            <div class="flower" style="top: 68%; left: 60%;"></div>
+            <div class="flower" style="top: 30%; left: 50%;"></div>
+            <div class="bush" style="top: 75%; left: 60%;"></div>
+            <div class="bush" style="top: 80%; left: 40%;"></div>
+            <div class="rock" style="top: 50%; left: 20%;"></div>
+            <div class="rock" style="top: 60%; left: 70%;"></div>
+            <div class="rock" style="top: 30%; left: 40%;"></div>
+            <div class="rock" style="top: 65%; left: 35%;"></div>
+            <div class="candy" style="top: 10%; left: 15%;"></div>
+            <div class="candy" style="top: 50%; left: 70%;"></div>
+            <div class="candy" style="top: 80%; left: 30%;"></div>
+            <div class="candy" style="top: 25%; left: 85%;"></div>
+            <div id="character"></div>
+        </div>
+        <div id="grassBackground">
+            <div class="path"></div>
+        </div>
+        <div id="controls">
+            <button id="upButton">↑</button>
+        <div id="horizontalControls">
+            <button id="leftButton">←</button>
+            <button id="downButton">↓</button>
+            <button id="rightButton">→</button>
+        </div>
+        </div>     
+        <div id="character1" class="npc"></div>
+        <div id="character2" class="npc"></div>
+        <div id="character3" class="npc"></div>   
+    </div>
+    <div id="messageModal" style="display: none;">
+        <div id="modalContent">
+            <p id="modalMessage"></p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
