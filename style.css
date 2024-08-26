@@ -279,7 +279,7 @@ body {
 }
 
 /* Media Query for Small Screens */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #controls {
         display: flex; /* Show controls on small screens */
     }
