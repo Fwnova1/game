@@ -150,6 +150,6 @@ function isMobileDevice() {
 window.onload = function() {
     if (isMobileDevice()) {
         alert("This website can only be accessed on a laptop or desktop.");
-        window.location.href = "https://fwnova1.github.io/bd/";
+        window.location.href = "https://www.youtube.com/watch?v=yoh-oXuR1-g";
     }
 };
