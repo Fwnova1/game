@@ -142,3 +142,13 @@ function moveCharacterMobile(direction) {
     checkCollision();
     checkInteraction(); // Check for NPC interaction after moving the character
 }
+
+function isMobileDevice() {
+    return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+window.onload = function() {
+    if (isMobileDevice()) {
+        alert("This website can only be accessed on a laptop or desktop.");
+    }
+};
