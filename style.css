@@ -309,9 +309,19 @@ body {
 }
 
 #character3 {
-    top: 50%;
-    left: 70%;
+    top: 60%;
+    left: 60%;
     background-image: url('dat.jpg'); /* NPC 3 image */
+}
+#character4 {
+    top: 40%;   
+    left: 37%;
+    background-image: url('khanh.jpg'); /* NPC 3 image */
+}
+#character5 {
+    top: 40%;
+    left: 70%;
+    background-image: url('linh.jpg'); /* NPC 3 image */
 }
 .sign {
     position: absolute;

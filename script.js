@@ -87,10 +87,16 @@ function showMessage(npcIndex) {
             modalMessage.textContent = "Hello! I'm NPC 1.";
             break;
         case 1:
-            modalMessage.textContent = "Hi there! I'm NPC 2.";
+            modalMessage.textContent = "Thì cũng là định viết dài rồi nhưng mà cậu lại khoe bọn em cậu viết dài rồi nên tớ ko thích viết nữa 😠 Nch thì cứ sống vui là được, hạnh phúc là được. Nhưng mà cũng đừng quên có 3 thằng đã cố gắng làm sinh nhật cho cậu nhé. Bàn nhau lâu lắm đó. Năm sau mà còn chơi với nhau thì snhat t nhớ mua quà nhé, ko thích bánh đâu.";
             break;
         case 2:
             modalMessage.textContent = "Greetings! I'm NPC 3.";
+            break;
+        case 3:
+            modalMessage.textContent = "Hello NNK nè!";
+            break;
+        case 4:
+            modalMessage.textContent = "Hello NLinh nè!";
             break;
     }
 
