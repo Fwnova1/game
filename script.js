@@ -90,7 +90,7 @@ function showMessage(npcIndex) {
             modalMessage.textContent = "Thì cũng là định viết dài rồi nhưng mà cậu lại khoe bọn em cậu viết dài rồi nên tớ ko thích viết nữa 😠 Nch thì cứ sống vui là được, hạnh phúc là được. Nhưng mà cũng đừng quên có 3 thằng đã cố gắng làm sinh nhật cho cậu nhé. Bàn nhau lâu lắm đó. Năm sau mà còn chơi với nhau thì snhat t nhớ mua quà nhé, ko thích bánh đâu.";
             break;
         case 2:
-            modalMessage.textContent = "Greetings! I'm NPC 3.";
+            modalMessage.textContent = "Ựa lâu không nói chuyện mà giờ vẫn không biết nói gì^^ Thôi thì chúc tuổi mới mọi thứ tuyết vời vui vẻ hạnh phúc nha. Nghĩ mãi k ra gì nữa mong là thích con gấu bông😊";
             break;
         case 3:
             modalMessage.textContent = "Hello NNK nè!";
